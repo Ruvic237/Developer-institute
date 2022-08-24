@@ -1,0 +1,45 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: lightgreen;
+}
+#container{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	height: 300px;
+	width: 450px;
+}
+#mini{
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	height: 250px;
+	width: 400px;
+	border: 5px solid red;
+	flex-direction: column;
+}
+#mini1{
+	background-color: lightblue;
+	height: 70px;
+	width: 380px;
+	align-self: center;
+	
+}
+#mini2{
+	background-color: lightblue;
+	height: 70px;
+	width: 80px;
+	align-self: flex-end;
+	margin-right: 10px;
+}
+#mini3{
+	background-color: lightblue;
+	height: 70px;
+	width: 380px;
+	align-self: center;
+}
+
+

@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div.main{
+	display: flex;
+}
+div.log{
+	background-color:whitesmoke;
+	height: 100vh;
+	width: 50%;
+	margin-left:auto;
+    margin-top: auto;
+    text-align: center;
+}
+div.log h2{
+	margin-top: 25%;
+	font-size: 35px;
+}
+input.mod{
+	width: 300px;
+	padding: 9px;
+	margin-top: 15px;
+}
+input.alone, a.only{
+	margin-top:13px;
+} 
+a.only{
+	margin-left: 103px;
+	text-decoration: none;
+}
+button{
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 9px;
+	width: 320px;
+	background-color: lightblue;
+}
+div.modi{
+	text-align: center;
+	margin-top: 20px;
+}
+div.font{
+	display: inline-block;
+	margin-top: 20px;
+}
+i{
+	color: blue;
+	font-size: 28px;
+	margin-left: 9px;
+}
+div.footer p{
+	margin-top: 23px;
+}
+div.sign{
+	background-color:#8B008B;
+	height: 100vh;
+	width: 50%;
+	margin-right: auto;
+	margin-top: auto;
+}
+div.logo i{
+	margin-top: 25%;
+	margin-left: 40%;
+	font-size: 100px;
+	color: white;
+}
+div.sign h3{
+	margin-top:4px;
+	font-size: 35px;
+	margin-left: 35%;
+	color: white;
+}
+div.sign p{
+	text-align: center;
+	color: white;
+	font-size: 19px;
+}
+div.sign button{
+	width: 190px;
+	border: 2px solid white;
+	border-radius: 22px;
+	font-size: 28px;
+	color: black;
+	background-color: white;
+}
+div.sign button i{
+	font-size: 28px;
+	color: black;
+}

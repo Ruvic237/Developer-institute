@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+div.nav{
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+}
+i{
+	color: white;
+	font-size: 23px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+a{
+	color: white;
+	font-size: 23px;
+	text-decoration: none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+div.cover{
+	background-color:lightcyan;
+	height: 100vh;
+}
+div.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}

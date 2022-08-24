@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color:white;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    display: grid;
+    gap: 8px;
+    grid-template-areas:
+       "a a a " 
+       "b c d"
+       "b e e"
+       "f f g"
+       "h h h"
+    ;
+}
+.one{
+    background-color: purple;
+    grid-area: a;
+}
+.two{
+    background-color: blueviolet;
+    grid-area: b;
+}
+.three{
+    background-color: blue;
+    grid-area: c;
+}
+.four{
+    background-color: lightblue;
+    grid-area: d;
+}
+.five{
+    background-color: burlywood;
+    grid-area: e;
+}
+.six{
+    background-color: purple;
+    grid-area: f;
+}
+.seven{
+    background-color: blueviolet;
+    grid-area: g;
+}
+.eight{
+    background-color: burlywood;
+    grid-area: h;
+}
