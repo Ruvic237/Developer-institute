@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    border: 2px solid black;
+    height: 400px;
+    width: 500px;
+}
+.ba{
+    background-color: brown;
+   
+}
+.bb{
+    background-color: burlywood;
+    grid-area: b;
+}
+.bc{
+    background-color: orange;
+    grid-area: c;
+    grid-area: m;
+}
+.bd{
+    background-color: brown;
+    grid-area: d;
+}
+.be{
+    background-color: burlywood;
+    grid-area: e;
+}
+.bf{
+    background-color: orange;
+    grid-area: f;
+}
+.bg{
+    background-color: brown;
+    grid-area: g;
+}
+.bh{
+    background-color: burlywood;
+    grid-area: h;
+}
+.bi{
+    background-color: orange;
+    grid-area: i;
+}
+.bj{
+    background-color: brown;
+    grid-area: j;
+}
+.bk{
+    background-color: burlywood;
+    grid-area: k;
+}
+.bl{
+    background-color: orange;
+    grid-area: l;
+}

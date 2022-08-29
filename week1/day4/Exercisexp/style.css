@@ -1,0 +1,40 @@
+.change{
+    background-color: black;
+}
+span.alone{
+    color: white;
+}
+span.alon{
+    color:black;
+    background-color: white;
+    padding: 5px;
+}
+input.yes{
+    border-radius: 9px;
+}
+div.control{
+    background-color: whitesmoke;
+    height: 30vh;
+}
+.control h2{
+    font: size 20px;
+    margin-left: 69px;
+    padding-top: 50px;
+}
+.control p{
+    margin-left:69px;
+}
+button.uni{
+    color:white;
+    border: 1px solid white;
+    background-color:blue;
+    border-radius: 5px;
+    margin-left: 67px;
+}
+
+button.modify{
+    background-color: green;
+    color: white;
+    border-radius: 9px;
+    padding: 3px;
+}
