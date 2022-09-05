@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 style="margin-top: 10px;" align="center">Ruvic's Calcio</h1>
+   <div class="main">
+       <div style="text-align: center;" id="container">
+           <input type="text" id="store" name="text" placeholder="0">
+           <button class="btn green" name="button" type="button" onclick="number(0)">0</button>
+           <button class="btn green" name="button" type="button" onclick="number(1)">1</button>
+           <button class="btn green" name="button" type="button" onclick="number(2)">2</button>
+           <button class="btn green" name="button" type="button" onclick="number(3)">3</button>
+           <button class="btn green" name="button" type="button" onclick="number(4)">4</button>
+           <button class="btn green" name="button" type="button" onclick="number(5)">5</button>
+           <button class="btn green" name="button" type="button" onclick="number(6)">6</button>
+           <button class="btn green" name="button" type="button" onclick="number(7)">7</button>
+           <button class="btn green" name="button" type="button" onclick="number(8)">8</button>
+           <button class="btn green" name="button" type="button" onclick="number(9)">9</button>
+           <button class="btn green" name="button" type="button" onclick="operator('.')">.</button>
+           <button class="btn orange" name="button" type="button"onclick="operator('+')">+</button>
+           <button class="btn orange" name="button" type="button"onclick="operator('-')">-</button>
+           <button class="btn orange" name="button" type="button"onclick="operator('*')">*</button>
+           <button class="btn orange" name="button" type="button"onclick="operator('/')">/</button>
+           <button class="btn orange" name="button" type="button"onclick="equal()">=</button>
+           <button id="blue" class="btn" name="button" type="button" onclick="reset()">Reset</button>
+           <button id="red" class="btn" name="button" type="button" onclick="erase()">Clear</button>
+       </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js file -->
+    <script src="script.js"></script>
+</body>
+</html>

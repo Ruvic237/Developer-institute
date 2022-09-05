@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 25px;
+	font-weight: bold;
+}
+div.main{
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 70vh;
+	width: 320px;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightblue;
+}
+#container{
+	display: grid;
+	grid-template-columns: repeat(4, 70px);
+	margin-bottom: 10px;
+	grid-gap: 2px;
+}
+input{
+  grid-column: span 4;
+  margin-top: 10px;
+  text-align: end;
+  margin-bottom: 3px;
+  padding-right:10px;
+  border: none;
+  border-radius: 9px;
+  background-color: black;
+  color: white;
+}
+.btn{
+	color: white;
+}
+.green{
+  background-color: lightgreen;
+}
+.orange{
+	background-color:orange;
+}
+#blue{
+	background-color: blue;
+	grid-column: span 2;
+}
+#red{
+	background-color: red;
+	grid-column: span 2;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
