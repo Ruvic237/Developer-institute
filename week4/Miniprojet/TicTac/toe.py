@@ -22,7 +22,7 @@ def display_board(): #function to diplay board
     
 
 def player_input(player): #Function to take user input and assign mark to grid 
-        play = int(input("Enter any value btw 0-9")) #index to add mark
+        play = int(input("Enter any value btw 0-9\n")) #index to add mark
         if play >=0 and play<=8 and t[play] == "": # is index of user in range and is index on grid empty?
             t[play] = player #mark assign to the index (X or O )
         else:
@@ -53,18 +53,21 @@ def diagonal(): #determine if diagonals are filled with same marks (O or X)
         return True
 
 
-def check_Win():
+def check_Win(): # Function to determine winner
     check_horizontal()
     check_vertical()
     diagonal()
     
-def start():
+def start(): # Function to start the game
     display_board()
     
-    for r in range(9):
+    for r in range(0,10):
         if r >= 5:
             if check_Win():
                 break
+        if r == 9:
+            print("draw")
+            break
         if r%2 == 0:
             player_input(playerX)
             display_board()
