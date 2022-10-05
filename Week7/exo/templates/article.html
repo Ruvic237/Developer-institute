@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+</head>
+<body>
+    <h1>Below are the articles of the page</h1>
+    <ul>
+     {% for arti,val in dict.items() %}
+        <li><p>  in {{ arti }}  we have {{ val }}</p></li>
+     {% endfor %}
+    </ul>
+</body>
+</html>
