@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} Each People section {% endblock %}
+{% block content %}
+    {% for x in Persons %}
+        {% if x.id == id %}
+            <div> person {{ x.id }} is {{ x.name }} with an age of {{ x.age }} from {{ x.country }}</div>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
